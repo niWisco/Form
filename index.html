@@ -12,12 +12,22 @@
     <script type="module" src="script.js"></script>
   </head>
   <body>
-    <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html">Other page</a>
-    </nav>
     <main>
-      <h1>Home page</h1>
+      <form action="/">
+        <label for="">Geben Sie Ihren Namen ein:</label><br />
+        <input class="inputField" type="text" /><br /><br />
+        <p>Wählen Sie eine Sprache:</p>
+        <label for="">Englisch</label>
+        <input type="radio" /><br />
+        <label for="">Französisch</label>
+        <input type="radio" /><br />
+        <label for="">Italienisch</label>
+        <input type="radio" /><br /><br />
+        <label for="">Datenschutzbestimmung gelesen</label>
+        <input type="checkbox" /><br /><br />
+        <label for=""></label>
+        <input type="submit" />
+      </form>
     </main>
   </body>
 </html>
